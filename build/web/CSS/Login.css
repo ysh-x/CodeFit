@@ -1,0 +1,226 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 Sep, 2021, 7:12:56 PM
+    Author     : gygsh
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: lightcoral;
+     
+}
+.logoOut {
+    font-weight:bolder;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+}
+label.logo {
+    font-weight:bold;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    margin: 5px;
+}
+.header ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.header ul li a{
+    color: white;
+    
+}
+
+.header ul li  a:hover{
+    color: black;
+    transition: .5s;
+}
+
+.introduction{
+    margin: 10px;
+    padding: 5px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    bottom: 0;
+    background-color: lightcoral;
+    color: white;
+}
+
+footer:hover{
+    color: black;
+}
+
+.LoginForm {
+    margin: auto;
+    display: border-box;
+    width: 40%;
+    padding: 20px;
+    background-color: black;
+    background-image: url("../img/LoginBG.jpg");
+    opacity: 60%;
+    border-radius: 5px;
+}
+
+.LoginFormReg {
+    background-color: #fafafa;
+     margin: auto;
+    display: border-box;
+    width: 50%;
+    padding: 20px;
+    opacity: 60%;
+    border-radius: 5px;
+}
+.text {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    border:none;
+    border-bottom: 1pt;
+
+}
+
+.text:focus {
+    outline: none;
+  	border: 1px solid red;
+}
+.LoginForm h1 {
+    font-size: xx-large;
+}
+
+.LoginFormReg h1 {
+    color: black;
+}
+.LoginForm button {
+    background-color: lightgreen;
+    font-size: 24px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    border:none;
+}
+
+.LoginForm button:hover {
+    background-color: green;
+    color:white;
+}
+.LoginFormReg button {
+    background-color: lightgreen;
+    font-size: 24px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    border:none;
+}
+
+.LoginFormReg button:hover {
+    background-color: green;
+    color:white;
+}
+.error {
+    display: block;
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: 700;
+    color:white;
+}
+
+date {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+label {
+    
+.text {
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    border:none;
+    border-bottom: 1pt;
+
+}
+}
+
+table {
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightcoral;
+}
+
+.btnA {
+    display: border-box;
+    border-radius:5px;
+    width: 40%;
+    max-width: max-content;
+    height: 30px;
+    font-size: 26px;
+    margin: 5px;
+    padding: 10px;
+    background: lightgreen;
+    color: black;
+    
+}
+
+.contain {
+    background: url(./img/BG.png) no-repeat center center fixed;
+    height: 1000px;
+    opacity: 50%;
+    margin: 0px;
+    background-color: lightcoral;
+}
+
+.contain h1,b {
+    color: white;
+    font-size: 36pt;
+    margin-bottom: 20px;
+}
+.contain .p {
+    margin: 10px;
+    font-size :18pt;
+}

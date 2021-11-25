@@ -1,0 +1,19 @@
+Registration
+
+1. Creating a Register Table holding account values
+2. Creating a login 
+3. Creating a dashboard login
+Theory
+
+OS
+CN
+DBMS
+OOPS
+
+
+Languages
+
+C 
+C++
+Java
+Python
