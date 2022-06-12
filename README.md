@@ -12,6 +12,19 @@
 CodeFit focuses on improving the niche skills of every aspiring engineer through a specialized portal to enhance their ability to be able to get selected in an interview process.
 It works on a goal basis, which further motivates the aspirant to work harder every day towards their goal
 
+
+## Unique Selling Propositon 
+The portal has an automated correction system for subjective answers. The system contains a novel aproach in structuring the input answer, performing text preprocessing, and corrects the answer based on the provided answer key.
+
+### Subjective Test
+
+![Alt text](/USPReview.png?raw=true "Optional Title")
+
+
+### Subjective Results
+
+![Alt text](/USPTest.png?raw=true "Optional Title")
+
 ## Tech Stack Used
 1. Java
 3. MySQL 5.5
