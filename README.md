@@ -64,9 +64,13 @@ Tests module consists of textual questions, based on the modules. A multiple cho
 ### Settings Module
 The Settings Module consist of basic account details and the user details
 
+![Alt text](/Settings.png?raw=true "Optional Title") 
+
+
 ### Certificates Module
 This module consists of the certificate of the user. Users can download after the completion of the tests
 
+![Alt text](/Certificate.png?raw=true "Optional Title") 
 
 
 ### Demonstration | YouTube Link
