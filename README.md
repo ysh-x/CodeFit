@@ -38,7 +38,14 @@ The Dashboard module consists of various subjects, basically helps the user to n
 ### Tests (Master Quiz) Module 
 Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions
  
+ 
+ #### Test
+ 
 ![Alt text](/ScreenShot-2.png?raw=true "Optional Title") 
+
+ #### Review
+ 
+![Alt text](/ScreenShot-1.png?raw=true "Optional Title") 
 
 
 ### Settings Module
