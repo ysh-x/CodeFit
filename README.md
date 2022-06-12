@@ -42,14 +42,20 @@ The registration module involves creating a new user and creating an instance in
 
 
 ### Dashboard Module
-The Dashboard module consists of various subjects, basically helps the user to navigate between the subjects. 
+The Dashboard module consists of various subjects, basically helps the user to navigate between the subjects. The course contains 6 Subjects (3 in Theory and 3 in Programming). User must score more than 50% in objective based programming quiz and 50% in Objective based Test. 
 
 
 ![Alt text](/ScreenShot-3.png?raw=true "Optional Title")
 
 
+## Course Page
+
+The course page contains the textual and multimedia based learning material to learn from the portal
+
+![Alt text](/SubjectPage.png?raw=true "Optional Title")
+
 ### Tests (Master Quiz) Module 
-Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions
+Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions. The test is one-time test. Upon completion, the test cannot be re-attempted again
  
  
  #### Test
