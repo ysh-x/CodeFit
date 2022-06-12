@@ -22,15 +22,19 @@ It works on a goal basis, which further motivates the aspirant to work harder ev
 
 ## Modules 
 
-1. Registration & Login Module- The registration module involves creating a new user and creating an instance in the database of the application. The Login module verifies the user and directs
-the user to the dashboard of the application.
-2. Dashboard Module- The Dashboard module consists of various subjects, basically helps the user to navigate between the subjects. 
+### Registration & Login Module
+The registration module involves creating a new user and creating an instance in the database of the application. The Login module verifies the user and directs the user to the dashboard of the application
+### Dashboard Module
+The Dashboard module consists of various subjects, basically helps the user to navigate between the subjects. 
 
-3. Tests (Master Quiz) Module- Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions.
+### Tests (Master Quiz) Module 
+Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions
  
-4. Settings Module-The Settings Module consist of basic account details and the user details.
+### Settings Module
+The Settings Module consist of basic account details and the user details
 
-5. Certificates Module- this module consists of the certificate of the user. Users can download after the completion of the tests.
+### Certificates Module
+This module consists of the certificate of the user. Users can download after the completion of the tests
 
 
 
