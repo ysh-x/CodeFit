@@ -24,12 +24,23 @@ It works on a goal basis, which further motivates the aspirant to work harder ev
 
 ### Registration & Login Module
 The registration module involves creating a new user and creating an instance in the database of the application. The Login module verifies the user and directs the user to the dashboard of the application
+
+![Alt text](/ScreenShot-4.png?raw=true "Optional Title")
+
+
 ### Dashboard Module
 The Dashboard module consists of various subjects, basically helps the user to navigate between the subjects. 
+
+
+![Alt text](/ScreenShot-3.png?raw=true "Optional Title")
+
 
 ### Tests (Master Quiz) Module 
 Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions
  
+![Alt text](/ScreenShot-2.png?raw=true "Optional Title") 
+
+
 ### Settings Module
 The Settings Module consist of basic account details and the user details
 
