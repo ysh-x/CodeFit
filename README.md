@@ -22,6 +22,11 @@ CodeFit focuses on improving the niche skills of every aspiring engineer through
 ## Unique Selling Propositon 
 The portal has an automated correction system for subjective answers. The system contains a novel aproach in structuring the input answer, performing text preprocessing, and corrects the answer based on the provided answer key.
 
+
+
+### Demonstration | YouTube Link
+- https://www.youtube.com/watch?v=X-z6_vy9XVw
+
 ### Subjective Test
 
 ![Alt text](/USPReview.png?raw=true "Optional Title")
@@ -77,5 +82,3 @@ This module consists of the certificate of the user. Users can download after th
 ![Alt text](/Certificate.png?raw=true "Optional Title") 
 
 
-### Demonstration | YouTube Link
-- https://www.youtube.com/watch?v=X-z6_vy9XVw
