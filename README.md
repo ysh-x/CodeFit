@@ -18,6 +18,7 @@ It works on a goal basis, which further motivates the aspirant to work harder ev
 1. Registration & Login 
 2. Dashboard
 3. Tests (Master Quiz)
+![Alt text](/ScreenShot-1.png?raw=true "Optional Title")
 4. Settings 
 5. Certificates
 
