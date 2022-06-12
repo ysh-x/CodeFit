@@ -9,8 +9,7 @@
 
 ## Introduction
 
-CodeFit focuses on improving the niche skills of every aspiring engineer through a specialized portal to enhance their ability to be able to get selected in an interview process.
-It works on a goal basis, which further motivates the aspirant to work harder every day towards their goal
+CodeFit focuses on improving the niche skills of every aspiring engineer through a specialized portal to enhance their ability to be able to get selected in an interview process. The portal works on a goal basis, which further motivates the aspirant to work harder every day towards their goal.
 
 
 ## Tech Stack Used
@@ -35,7 +34,7 @@ The portal has an automated correction system for subjective answers. The system
 ## Modules 
 
 ### Registration & Login Module
-The registration module involves creating a new user and creating an instance in the database of the application. The Login module verifies the user and directs the user to the dashboard of the application
+The registration module involves creating a new user and creating an instance in the database of the application. The Login module verifies the user and directs the user to the dashboard of the application.
 
 ![Alt text](/ScreenShot-4.png?raw=true "Optional Title")
 
@@ -49,12 +48,12 @@ The Dashboard module consists of various subjects, basically helps the user to n
 
 ## Course Page
 
-The course page contains the textual and multimedia based learning material to learn from the portal
+The course page contains the textual and multimedia based learning material to learn from the portal.
 
 ![Alt text](/SubjectPage.png?raw=true "Optional Title")
 
 ### Tests (Master Quiz) Module 
-Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions. The test is one-time test. Upon completion, the test cannot be re-attempted again
+Tests module consists of textual questions, based on the modules. A multiple choice-based test and short answer type questions. The test is one-time test. Upon completion, the test cannot be re-attempted again.
  
  
  #### Test
@@ -67,13 +66,13 @@ Tests module consists of textual questions, based on the modules. A multiple cho
 
 
 ### Settings Module
-The Settings Module consist of basic account details and the user details
+The Settings Module consist of basic account details and the user details.
 
 ![Alt text](/Settings.png?raw=true "Optional Title") 
 
 
 ### Certificates Module
-This module consists of the certificate of the user. Users can download after the completion of the tests
+This module consists of the certificate of the user. Users can download after the completion of the tests.
 
 ![Alt text](/Certificate.png?raw=true "Optional Title") 
 
