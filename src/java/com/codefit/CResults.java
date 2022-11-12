@@ -6,6 +6,14 @@ package com.codefit;
  * and open the template in the editor.
  */
 
+import com.codefit.Register;
+import com.codefit.ResultsBean;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -14,12 +22,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
 
 /**
  *
@@ -94,14 +97,14 @@ public class CResults extends HttpServlet {
        RB.setCScores(score);
 //        
                 final String JDBC_DRIVER="com.mysql.jdbc.Driver";
-                final String DB_URL="jdbc:mysql://localhost:3307/ysh";
+                final String DB_URL="jdbc:mysql://localhost:3307/codefit";
                 final String USER="root";
                 final String PASS="root";
              try {
                  Class.forName(JDBC_DRIVER);
                   Connection C = DriverManager.getConnection(DB_URL, USER, PASS);
                   Statement S = C.createStatement();
-                 		 String Query = "INSERT INTO CRESULTS VALUES ('"+mail+"',"+verd[1]+","
+                 		 String Query = "INSERT INTO CDC VALUES ('"+mail+"',"+verd[1]+","
                                                                     +verd[2]+","
                                                                     +verd[3]+","
                                                                     +verd[4]+","
@@ -128,7 +131,7 @@ public class CResults extends HttpServlet {
                   System.out.println(RB.getCScores());
                   
                   Statement S1 = C.createStatement();
-                   String QueryOne = "UPDATE CDDASHBOARD SET C_SCORE = "+RB.getCScores()+" WHERE EMAIL = '"+mail+"';";
+                   String QueryOne = "UPDATE CDDSH SET C_SCORE = "+RB.getCScores()+" WHERE EMAIL = '"+mail+"';";
                    S1.executeUpdate(QueryOne);
                    S1.close();
                     

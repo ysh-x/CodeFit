@@ -1,9 +1,10 @@
+package com.codefit;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.codefit;
 
 
 import com.codefit.Register;
@@ -27,13 +28,15 @@ import java.util.logging.Logger;
  *
  * @author test
  */
-public class DBMSResults extends HttpServlet {
-    
-    String mail = null;
+public class PR extends HttpServlet {
+ String mail = null;
+ String name = null;                    
+  
+    @Override
     
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String name = null;
+        
                     
                     Cookie[] cookies;
                     Cookie cookie;
@@ -47,22 +50,24 @@ public class DBMSResults extends HttpServlet {
                             if(cookie.getName().endsWith("userName")) {
                                 name = cookie.getValue();
                             }
+                            System.out.print(mail);
+                            System.out.print(name);
                     }
 
                     System.out.print("Mail: "+mail);
         ResultsBean RB = new ResultsBean();
         PrintWriter out = response.getWriter();
-        int DBMSAnswers[] = {0,3,3,4,1,4,3,4,1,2,1,3,3,2,3,2,4,4,4,4,4};
+        int PAnswers[] = {0,3,1,1,1,2,4,4,3,3,1,2,2,2,3,3,4,3,4,1,1};
         int[] tempResult = new int[30];
-        int score = 0;
         boolean[] verd = new boolean[30];
+        int score = 0;
         
         
         for(int i = 1; i <= 20; i++) {
             String getParam = "Q"+Integer.toString(i);
             tempResult[i] = (Integer.parseInt(request.getParameter(getParam)));
             
-            if(tempResult[i] == DBMSAnswers[i]) {
+            if(tempResult[i] == PAnswers[i]) {
                 score++;
                 verd[i] = true;
             }
@@ -72,27 +77,21 @@ public class DBMSResults extends HttpServlet {
         }
         
         if(score <= 10) {
-            RB.setDBMSVerdict("Very Poor");
+            RB.setPVerdict("Very Poor");
         }
         else if(score > 10 && score <= 15) {
-            RB.setDBMSVerdict("Good");
+            RB.setPVerdict("Good");
         }
         else if(score > 15 && score <= 19) {
-             RB.setDBMSVerdict("Very Good");
+             RB.setPVerdict("Very Good");
         }
         else if(score == 20) {
-             RB.setDBMSVerdict("Outstanding");
+             RB.setPVerdict("Outstanding");
         }
- //Unit Testing       
-//        for(int i = 1; i <= 20; i++) {
-//            out.print("<p>"+tempResult[i]+"\t"+verd[i]);
-//            out.print("</p>");
-//        }
-//        out.print(score);
-//        out.print(RB.getDBMSVerdict());
-       RB.setDBMSAnswers(verd);
-       RB.setDBMSResult(tempResult);
-       RB.setDBMSScores(score);
+        
+       RB.setPAnswers(verd);
+       RB.setPResult(tempResult);
+       RB.setPScores(score);
         
                 final String JDBC_DRIVER="com.mysql.jdbc.Driver";
                 final String DB_URL="jdbc:mysql://localhost:3307/codefit";
@@ -102,7 +101,7 @@ public class DBMSResults extends HttpServlet {
                  Class.forName(JDBC_DRIVER);
                   Connection C = DriverManager.getConnection(DB_URL, USER, PASS);
                   Statement S = C.createStatement();
-                 String Query = "INSERT INTO CDBD VALUES ('"+mail+"',"+verd[1]+","
+                 		 String Query = "INSERT INTO CDRP VALUES ('"+mail+"',"+verd[1]+","
                                                                     +verd[2]+","
                                                                     +verd[3]+","
                                                                     +verd[4]+","
@@ -123,18 +122,18 @@ public class DBMSResults extends HttpServlet {
                                                                     +verd[19]+","
                                                                     +verd[20]+","
                                                                     +score+",'"
-                                                                +RB.getDBMSVerdict()+"');";
+                                                                +RB.getPVerdict()+"');";
                   S.executeUpdate(Query);
                   S.close();
-                  System.out.println(RB.getDBMSScores());
+                  System.out.println(RB.getPScores());
                   
-                   Statement S1 = C.createStatement();
-                   String QueryOne = "UPDATE CDDSH SET DBMS_SCORE = "+RB.getDBMSScores()+" WHERE EMAIL = '"+mail+"';";
+                  Statement S1 = C.createStatement();
+                   String QueryOne = "UPDATE CDDSH SET PYTHON_SCORE = "+RB.getPScores()+" WHERE EMAIL = '"+mail+"';";
                    S1.executeUpdate(QueryOne);
                    S1.close();
                    
                    request.setAttribute("RB",RB);
-                   RequestDispatcher RD = request.getRequestDispatcher("./DBMSReview.jsp");
+                   RequestDispatcher RD = request.getRequestDispatcher("./PReview.jsp");
                    RD.forward(request, response);
                    
                   
@@ -142,8 +141,8 @@ public class DBMSResults extends HttpServlet {
                  Logger.getLogger(Register.class.getName()).log(Level.SEVERE, null, ex); 
                    RequestDispatcher RD = request.getRequestDispatcher("./Error.jsp");
                    RD.forward(request, response);
-                 
-                 
              }   
          }
+ 
+
 }

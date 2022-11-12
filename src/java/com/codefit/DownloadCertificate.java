@@ -28,7 +28,7 @@ import java.util.logging.Logger;
  *
  * @author test
  */
-public class downloadCer extends HttpServlet {
+public class DownloadCertificate extends HttpServlet {
  @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -68,7 +68,7 @@ public class downloadCer extends HttpServlet {
             Class.forName(JDBC_DRIVER);
             Connection C = DriverManager.getConnection(DB_URL, USER, PASS);
             Statement S = C.createStatement();
-            String Query = "SELECT * FROM CDDSH WHERE EMAIL = '"+email+"';";
+            String Query = "SELECT * FROM CDDASHBOARD WHERE EMAIL = '"+email+"';";
             System.out.print(Query);
             ResultSet RS = S.executeQuery(Query);
     
@@ -85,22 +85,27 @@ public class downloadCer extends HttpServlet {
             String marks = null;
             System.out.print(Query);
             Statement S1 = C.createStatement();
-            String Query1 = "SELECT MARKS FROM CDFN WHERE EMAIL = '"+email+"';";
+            String Query1 = "SELECT * FROM CFFINAL WHERE EMAIL = '"+email+"';";
+            System.out.print(Query1);      
             ResultSet RS1 = S1.executeQuery(Query1);
-           
+           System.out.println(RS1);
             while(RS1.next()) {
-                marks = RS.getString("MARKS");
+                marks = RS1.getString(2);
             }
             System.out.println(marks);
 
+            double sum = 0.0;
             if(CL >= 7 && CPP >= 7 && P >= 7 && CN >= 7 && OS >= 7 && DBMS >= 7) {
-             
-                int sum = (P+CPP+CL)/3;
-                sum = (sum / 20) * 100;
-                System.out.println("Programming Efficiency : "+sum);
                 
-                request.setAttribute("name",name);
+                sum = ((double)(P+CPP+CL) / 60.0);
+                sum = Math.round(sum * 100);
                 System.out.print(name);
+                CertificateBean CB = new CertificateBean();
+                CB.setPE(sum);
+                CB.setTE(marks);
+                request.setAttribute("CB",CB);
+                request.setAttribute(marks, S);
+                request.setAttribute("name",name);
                 RequestDispatcher R1 = request.getRequestDispatcher("./Certificate.jsp");
                 R1.include(request, response);
 

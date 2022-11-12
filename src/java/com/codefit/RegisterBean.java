@@ -10,7 +10,7 @@ package com.codefit;
  * @author gygsh
  */
 public class RegisterBean {
-    private String email,name,dob,yog,city,college,password;
+    private String email,name,dob,yog,city,college,password,q1,q2,q3,code;
 
     public String getEmail() {
         return email;
@@ -18,6 +18,38 @@ public class RegisterBean {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getQ1() {
+        return q1;
+    }
+
+    public void setQ1(String q1) {
+        this.q1 = q1;
+    }
+
+    public String getQ2() {
+        return q2;
+    }
+
+    public void setQ2(String q2) {
+        this.q2 = q2;
+    }
+
+    public String getQ3() {
+        return q3;
+    }
+
+    public void setQ3(String q3) {
+        this.q3 = q3;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 
     public String getName() {
