@@ -11,7 +11,8 @@
 <% 
     LoginBean Bean = (LoginBean)request.getAttribute("LB");
     
-    String name = null;
+    
+    String name = "";
     Cookie[] cookies;
     Cookie cookie;
     
@@ -25,6 +26,7 @@
             name = cookie.getValue();
         }
     }
+        
      System.out.print("Name: "+name);
     
 %>
@@ -39,8 +41,10 @@
          <div class="header">
         <label class="logo">CodeFit DashBoard</label>
         <ul>
-             <li><a class = "passive" href = "#" >Current User | <%=name %></a></li>
+            <li><a class = "passive" href = "#" >User | <%=name %></a></li>
+            <li><a class = "passive" href = "./MasterTest.jsp" ><b>Master Test</b></a></li>
             <li><a class = "active" href = "./Results.jsp" >Results</a></li>
+             <li><a class = "active" href = "DownloadCertificate" >Certificate</a></li>
             <li><a class = "active" href = "./Settings.jsp" >Settings</a></li>
             <li><a class = "active" href = "./LogOut" >Log Out</a></li>
         </ul>

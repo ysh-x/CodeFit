@@ -25,7 +25,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>C Language | Chapter 5</h2>
             <p class="content">
             <h3 class="inner">
@@ -163,7 +163,6 @@ array which points to each argument passed to the program. <br><br><br>
             </h3>
             </p>
             <h2>Video Reference</h2>
-            <iframe width="560" height="315" src="https://youtu.be/509GC9oKk-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/509GC9oKk-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     </div>
     </body>
 </html>

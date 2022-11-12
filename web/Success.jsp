@@ -8,26 +8,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-          <link rel="stylesheet" href="./CSS/pages.css" type="text/css">
+        <link rel="stylesheet" href="./CSS/pages.css" type="text/css">
         <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>CodeFit | Operating Systems</title>
+        <title>CodeFit | Recovery </title>
     </head>
     <body>
-         <div class="header">
-        <label class="logo">CodeFit</label>
-        <ul>
-            <li><a class="active" href="./">Back</a></li>
-        </ul>
-        <br>
+        <div class="header">
+            <label class="logo">CodeFit</label>
+            <ul>
+                <li><a class="active" href="./">Login</a></li>
+            </ul>
+            <br>
         </div>
-        
+
         <div class="container-main">
-            <h2>Error</h2>
+            <h2>Recovery Complete</h2>
             <h3>
                 <ol type="1" class ="list">
-                    <li>An Error Occurred</li>
-                    <li>Error | An unexpected error occured. Please try again</li>
+                    <li>Recovery Success</li>
+                    <li>Success | Your account has been recovered successfully. Kindly login</li>
                 </ol>
             </h3>
         </div>

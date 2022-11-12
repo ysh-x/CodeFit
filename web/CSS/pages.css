@@ -216,6 +216,13 @@ tr:nth-child(even) {
     margin: 20px;
     padding: 10px;
 }
+.container-main-db {
+    
+    margin: 20px;
+    margin-left: 20vw;
+    padding: 10px;
+    
+}
 .card-1, .card-2,  .card-3, .card-4 {
   display: float;
   float: left;
@@ -266,6 +273,7 @@ tr:nth-child(even) {
 }
 
 .testBtn {
+    margin-top: 3vh;
     font-size: 20pt;
     padding: 20px;
     border-radius: 5px;
@@ -292,8 +300,10 @@ input[type='radio']{
     width: 10%;
 }
 .questions {
+    margin: 10px;
     font-weight:500;
-    padding: 10px;
+    padding: 20px;
+    margin-left: 40px;
     font-size: 14pt;
 }
 
@@ -320,5 +330,26 @@ input[type='radio']{
 }
 
 .inner:hover {
-    font-weight: 600;
+    color: #000;
+}
+
+.gen-in {
+    font-size: 26pt; padding:1vh; margin: 3vh; color: #171717; margin-bottom: 4vh; border-radius: 5px; background-color: lightgray;
+}
+
+.ans-area {
+  
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    padding: 1vw;
+    margin-left: 40px;
+    background-color:#d9d9d9;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 15pt;
+    
+}
+.ans-area:active {
+    border-color: #666666;
 }

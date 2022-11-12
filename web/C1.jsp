@@ -1,4 +1,4 @@
-<%-- 
+ <%-- 
     Document   : C1
     Created on : 20 Oct, 2021, 10:31:05 PM
     Author     : gygsh
@@ -26,7 +26,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>C Language | Chapter 1</h2>
             <p class="content">
             <h3 class="inner">

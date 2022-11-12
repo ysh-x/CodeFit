@@ -29,15 +29,18 @@
             <h2 style = "font-size: 30pt;">General Instructions</h2>
             <h3>
                 <ol type="1" class ="list">
-                    <li style="color: gray;"> 1 | The Exam contains questions from the given materials</a></li>
-                    <li style="color: gray;"> 2 | There are 20 questions in the exam</a></li>
+                    <li style="color: gray;"> 1 | The Exam contains questions from theory subjects</a></li>
+                    <li style="color: gray;"> 2 | There are 6 questions in the exam</a></li>
                     <li style="color: gray;"> 3 | Do not navigate back and forth during the exam</a></li>
-                    <li style="color: gray;"> 4 | Multiple-choice questions with single answer</a></li>
-                    <li style="color: gray;"> 5 | An aggregate of 40 and above is required to clear the test</a></li>
-                    <li style="color: gray;"> 6 | Good luck in becoming a perfect engineer &#128077; </a></li>
-                     
+                    <li style="color: gray;"> 4 | The test is subjective-based test. Kindly restrict your answer to less than 50 words</a></li>
+                    <li style="color: gray;"> 5 | Frame your answers in a single paragraph. Do not number your answer</a></li>
+                    <li style="color: gray;"> 6 | An aggregate of 40 and above is required to clear the test</a></li>
+                    <li style="color: gray;"> 7 | Good luck in becoming a perfect engineer &#128077; </a></li>
+                    
                 </ol>
             </h3>
+              <center><a href="./MasterExam.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
         </div>
+                           
     </body>
 </html>

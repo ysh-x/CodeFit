@@ -17,7 +17,7 @@
          <div class="header">
         <label class="logo">CodeFit</label>
         <ul>
-            <li><a class="active" href="./">Back</a></li>
+            <li><a class="active" href="./Login.jsp">Login</a></li>
         </ul>
         <br>
         </div>
@@ -27,7 +27,7 @@
             <h3>
                 <ol type="1" class ="list">
                     <li>An Error Occurred</li>
-                    <li>Error | An unexpected error occured. Please try again</li>
+                    <li>Error | Kindly Try Again</li>
                 </ol>
             </h3>
         </div>

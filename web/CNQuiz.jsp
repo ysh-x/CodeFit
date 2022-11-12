@@ -21,7 +21,7 @@
         
         <div class="container-main">
             <h2>Computer Networks | Master Test</h2>
-            <form action="CNResults" method = "POST">
+            <form action="CNR" method = "POST">
               <div class ="Q-card">
                   <p class="questions">
                          1 | Which type of topology is best suited for large businesses which must carefully control and coordinate the operation of distributed branch outlets?

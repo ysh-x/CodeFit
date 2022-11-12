@@ -1,76 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
-    <servlet>
-        <servlet-name>OSResults</servlet-name>
-        <servlet-class>com.codefit.OSResults</servlet-class>
-    </servlet>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
     <servlet>
         <servlet-name>Logout</servlet-name>
         <servlet-class>com.codefit.Logout</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>LogOut</servlet-name>
-        <servlet-class>com.codefit.LogOut</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>CNResults</servlet-name>
-        <servlet-class>com.codefit.CNResults</servlet-class>
+        <servlet-name>OSResults</servlet-name>
+        <servlet-class>com.codefit.OSResults</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>DBMSResults</servlet-name>
         <servlet-class>com.codefit.DBMSResults</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>CResults</servlet-name>
-        <servlet-class>com.codefit.CResults</servlet-class>
+        <servlet-name>CNResults</servlet-name>
+        <servlet-class>CNResults</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>CPPResults</servlet-name>
         <servlet-class>com.codefit.CPPResults</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>CNR</servlet-name>
+        <servlet-class>com.codefit.CNR</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CResults</servlet-name>
+        <servlet-class>com.codefit.CResults</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>PResults</servlet-name>
         <servlet-class>com.codefit.PResults</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>downloadCer</servlet-name>
-        <servlet-class>com.codefit.downloadCer</servlet-class>
+        <servlet-name>PR</servlet-name>
+        <servlet-class>com.codefit.PR</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DownloadCertificate</servlet-name>
+        <servlet-class>com.codefit.DownloadCertificate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AutomateAns</servlet-name>
+        <servlet-class>com.codefit.AutomateAns</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.codefit.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>com.codefit.LogOut</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RecoveryRequest</servlet-name>
+        <servlet-class>com.codefit.RecoveryRequest</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FinalRecovery</servlet-name>
+        <servlet-class>com.codefit.FinalRecovery</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>OSResults</servlet-name>
         <url-pattern>/OSResults</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Logout</servlet-name>
-        <url-pattern>/Logout</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>LogOut</servlet-name>
-        <url-pattern>/LogOut</url-pattern>
+        <servlet-name>DBMSResults</servlet-name>
+        <url-pattern>/DBMSResults</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CNResults</servlet-name>
         <url-pattern>/CNResults</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>DBMSResults</servlet-name>
-        <url-pattern>/DBMSResults</url-pattern>
+        <servlet-name>CPPResults</servlet-name>
+        <url-pattern>/CPPResults</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CNR</servlet-name>
+        <url-pattern>/CNR</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>CResults</servlet-name>
         <url-pattern>/CResults</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>CPPResults</servlet-name>
-        <url-pattern>/CPPResults</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>PResults</servlet-name>
         <url-pattern>/PResults</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>downloadCer</servlet-name>
-        <url-pattern>/downloadCer</url-pattern>
+        <servlet-name>PR</servlet-name>
+        <url-pattern>/PR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DownloadCertificate</servlet-name>
+        <url-pattern>/DownloadCertificate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AutomateAns</servlet-name>
+        <url-pattern>/AutomateAns</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/LogOut</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RecoveryRequest</servlet-name>
+        <url-pattern>/RecoveryRequest</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FinalRecovery</servlet-name>
+        <url-pattern>/FinalRecovery</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

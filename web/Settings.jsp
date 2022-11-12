@@ -36,7 +36,7 @@
                     System.out.print("Mail: "+mail);
 
                final String JDBC_DRIVER="com.mysql.jdbc.Driver";
-                final String DB_URL="jdbc:mysql://localhost:3307/ysh";
+                final String DB_URL="jdbc:mysql://localhost:3307/codefit";
                 final String USER="root";
                 final String PASS="root";
         
@@ -65,8 +65,8 @@
                     city = RS.getString("CITY");
             } 
         }catch(Exception e) {}
- %>
- 
+%>
+
 <html>
     <head> 
         <link rel="stylesheet" href="./CSS/Login.css" type="text/css">
@@ -75,14 +75,13 @@
         <title>CodeFit | Register </title>
     </head>
     <body>
-         <div class="header">
-        <label class="logo">CodeFit</label>
-        <ul>
-            <li><a class = "active" href = "./Dashboard.jsp">Dashboard</a></li>
-            <li><a class = "active" href = "/Settings.jsp" >Settings</a></li>
-            <li><a class = "active" href = "./Login.jsp" >Log Out</a></li>
-        </ul>
-        <br>
+        <div class="header">
+            <label class="logo">CodeFit</label>
+            <ul>
+                <li><a class = "active" href = "./Dashboard.jsp">Dashboard</a></li>
+                <li><a class = "active" href = "./Login.jsp" >Log Out</a></li>
+            </ul>
+            <br>
         </div>
         <br><br>
         <h1>&nbsp;&nbsp;Account Details</h1><br><br><br>
@@ -117,9 +116,9 @@
             </tr>
             <tr>        
         </table>
-            <br><br><br>
+        <br><br><br>
     <center>
-            </center>
+    </center>
     <br><br><br><br>
-    </body>
+</body>
 </html>

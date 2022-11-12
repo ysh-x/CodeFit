@@ -26,7 +26,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>Operating Systems | Chapter 1</h2>
             <p class="content">
             <h3 class="inner">
@@ -128,7 +128,5 @@ Scientific Projects like undersea exploration and planetary rovers, etc.<br><br>
             </h3>
             </p>
             <h2>Video Reference</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vBURTt97EkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VjPgYcQqqN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </body>
 </html>

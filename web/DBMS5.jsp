@@ -25,7 +25,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>DBMS | Chapter 5</h2>
             <p class="content">
             <h3 class="inner">
@@ -76,7 +76,5 @@ Hash Function − A hash function, h, is a mapping function that maps all the se
             </h3>
             </p>
             <h2>Video Reference</h2>
-            <iframe width="560" height="315" src="https://youtu.be/PYsA4xTL3e4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qMAxQh6Xilo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </body>
 </html>

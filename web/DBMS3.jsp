@@ -26,7 +26,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>DBMS | Chapter 3</h2>
             <p class="content">
             <h3 class="inner">
@@ -64,7 +64,6 @@ Rule 12: Non-Subversion Rule - If a system has an interface that provides access
             </h3>
             </p>
             <h2>Video Reference</h2>
-            <iframe width="560" height="315" src="https://youtu.be/Q45sr5p_NmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/qoAL4MA3P08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>
     </body>
 </html>

@@ -35,7 +35,7 @@
                     <li><a href="./C4.jsp">Chapter 4 | Pointers, String and Files in C Language</a></li>
                     <li><a href="./C5.jsp">Chapter 5 | Preprocessors and Header Files in C </a></li>
                     
-                     <center><a href="./GeneralInstructions.jsp" target = "_blank" style = "font-size: 26pt;">General Instructions</a></center>
+                     <center><a href="./GeneralInstructions.jsp" target = "_blank" class = "gen-in" >General Instructions</a></center>
                      <center><a href="./CQuiz.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
                 </ol>
             </h3>

@@ -22,6 +22,7 @@
         <label class="logo">CodeFit</label>
         <ul>
              <li><a class = "active" href = "./Registration.jsp" >Sign Up</a></li>
+             <li><a class = "active" href = "./RecoveryRequest.jsp" >Recovery</a></li>
              <li><a class = "active" href = "https://www.northeastern.edu/graduate/blog/computer-science-skills/" target="_blank" >Source</a></li>
              <li><a class = "active" href = "./About.jsp" >About</a></li>
         </ul>
