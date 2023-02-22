@@ -34,7 +34,7 @@
                     <li><a href="./OS3.jsp">Chapter 3 | Process Scheduling & Scheduling Algorithms</a></li>
                     <li><a href="./OS4.jsp">Chapter 4 | Thread & Memory Management</a></li>
                     <li><a href="./OS5.jsp">Chapter 5 | File System & Security</a></li>
-                     <center><li><a href="./GeneralInstructions.jsp" target = "_blank" style = "font-size: 26pt;">General Instructions</a></li></center>
+                     <center><li><a href="./GeneralInstructions.jsp" target = "_blank" style="font-size: 26pt; padding:1vh; margin: 3vh; color: #171717; margin-bottom: 4vh; border-radius: 5px; background-color: lightgray;" >General Instructions</a></li></center>
                      <center><a href="./OSQuiz.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
                 </ol>
             </h3>

@@ -26,7 +26,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>DBMS | Chapter 4</h2>
             <p class="content">
             <h3 class="inner">
@@ -81,7 +81,6 @@ File Organization defines how file records are mapped onto disk blocks. We have 
             </h3
             </p>
             <h2>Video Reference</h2>
-            <iframe width="560" height="315" src="https://youtu.be/1IWtpmIniHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YcYF-kxE0Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
     </body>
 </html>

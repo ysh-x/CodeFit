@@ -33,7 +33,8 @@
                     <li style="color: gray;"> 2 | There are 20 questions in the exam</a></li>
                     <li style="color: gray;"> 3 | Do not navigate back and forth during the exam</a></li>
                     <li style="color: gray;"> 4 | Multiple-choice questions with single answer</a></li>
-                    <li style="color: gray;"> 5 | Good luck in becoming a perfect engineer &#128077; </a></li>
+                    <li style="color: gray;"> 5 | An aggregate of 40 and above is required to clear the test</a></li>
+                    <li style="color: gray;"> 6 | Good luck in becoming a perfect engineer &#128077; </a></li>
                      
                 </ol>
             </h3>

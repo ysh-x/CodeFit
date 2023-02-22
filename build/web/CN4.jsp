@@ -26,7 +26,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>Computer Networks | Chapter 4</h2>
             <p class="content">
             <h3 class="inner">
@@ -108,6 +108,5 @@ UDP, however, does provide a checksum to verify individual packet integrity.<br>
             </h3>
             </p>
             <h2>Video Reference</h2>
-<iframe width="560" height="315" src="https://youtu.be/qIycyyxCnF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qIycyyxCnF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></body>
 </html>

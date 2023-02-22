@@ -13,11 +13,9 @@
 <%@page import="com.codefit.ResultsBean"%>
 <!DOCTYPE html>
 <%
-    out.print("Hi");
     ResultsBean OS = (ResultsBean)request.getAttribute("RB");
     int[] ans = OS.getOSResult();
     boolean[] verd = OS.getOSAnswers();
-    out.print("Hi");
  %>
  
 <html>

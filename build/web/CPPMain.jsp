@@ -35,7 +35,7 @@
                     <li><a href="./CPP4.jsp">Chapter 4 | Decision Making and Functions in C++</a></li>
                     <li><a href="./CPP5.jsp">Chapter 5 | Arrays in C++ </a></li>
                     
-                     <center><a href="./GeneralInstructions.jsp" target = "_blank" style = "font-size: 26pt;">General Instructions</a></center>
+                     <center><a href="./GeneralInstructions.jsp" target = "_blank" class = "gen-in">General Instructions</a></center>
                      <center><a href="./CPPQuiz.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
                 </ol>
             </h3>

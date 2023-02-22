@@ -17,7 +17,7 @@
          <div class="header">
         <label class="logo">CodeFit</label>
         <ul>
-            <li><a class="active" href="./Dashboard.jsp">Dashboard</a></li>
+            <li><a class="active" href="./">Back</a></li>
         </ul>
         <br>
         </div>
@@ -27,7 +27,7 @@
             <h3>
                 <ol type="1" class ="list">
                     <li>An Error Occurred</li>
-                    <li>Error | You have already given the test once. The test can only be taken once</li>
+                    <li>Error | An unexpected error occured. Please try again</li>
                 </ol>
             </h3>
         </div>

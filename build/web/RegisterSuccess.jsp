@@ -61,7 +61,36 @@
             <tr>        
         </table>
             <br><br><br>
+            
+            <h1>&nbsp;&nbsp;Security Details</h1><br><br><br>
+            <table class = "table">
+            <tr>
+                <th>Question Number</th>
+                <th>Answer</th>
+            </tr>
+            <tr>
+                <td>Question 1</td>
+                <td><%=RB.getQ1() %></td>
+            </tr>
+            <tr>
+                <td>Question 2</td>
+                <td><%=RB.getQ2() %></td>
+            </tr>
+            <tr>
+                <td>Question 3</td>
+                <td><%=RB.getQ3() %></td>
+            </tr>
+            <tr>
+                <td>Rec Code</td>
+                <td><%=RB.getCode()%></td>
+            </tr> 
+        </table>
+            <br><br><br>
     <center>
+        
+        
+        
+        
             <a class = "btnA" href="./Login.jsp">Login To CodeFit</a>
             </center>
     <br><br><br><br>

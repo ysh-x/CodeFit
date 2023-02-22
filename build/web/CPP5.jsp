@@ -25,7 +25,7 @@
         <br>
         </div>
         
-        <div class="container-main">
+        <div class="container-main-db">
             <h2>C++ Language | Chapter 5</h2>
             <p class="content">
             <h3 class="inner">
@@ -99,7 +99,6 @@ You can pass a structure as a function argument in very similar way as you pass 
             </h3>
             </p>
             <h2>Video Reference</h2>
-            <iframe width="560" height="315" src="https://youtu.be/KdcKnwAZXhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/KdcKnwAZXhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       </div>
     </body>
 </html>

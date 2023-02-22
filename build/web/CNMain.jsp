@@ -35,7 +35,7 @@
                     <li><a href="./CN4.jsp">Chapter 4 | User Datagram Protocol(UDP)</a></li>
                     <li><a href="./CN5.jsp">Chapter 5 | Trasmission Control Protocol/Internet Protocol</a></li>
                     
-                     <center><a href="./GeneralInstructions.jsp" target = "_blank" style = "font-size: 26pt;">General Instructions</a></center>
+                     <center><a href="./GeneralInstructions.jsp" target = "_blank" class = "gen-in">General Instructions</a></center>
                      <center><a href="./CNQuiz.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
                 </ol>
             </h3>

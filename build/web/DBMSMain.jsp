@@ -35,7 +35,7 @@
                     <li><a href="./DBMS4.jsp">Chapter 4 | Storage And File Structure</a></li>
                     <li><a href="./DBMS5.jsp">Chapter 5 | Indexing and Hashing    </a></li>
                     
-                     <center><a href="./GeneralInstructions.jsp" target = "_blank" style = "font-size: 26pt;">General Instructions</a></center>
+                     <center><a href="./GeneralInstructions.jsp" target = "_blank" class = "gen-in">General Instructions</a></center>
                      <center><a href="./DBMSQuiz.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
                 </ol>
             </h3>

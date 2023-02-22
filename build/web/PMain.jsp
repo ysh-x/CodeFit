@@ -35,7 +35,7 @@
                     <li><a href="./P4.jsp">Chapter 4 | Date & Time,Functions Module</a></li>
                     <li><a href="./P5.jsp">Chapter 5 | Files I/O,Exceptions Handling </a></li>
                     
-                     <center><a href="./GeneralInstructions.jsp" target = "_blank" style = "font-size: 26pt;">General Instructions</a></center>
+                     <center><a href="./GeneralInstructions.jsp" target = "_blank" class = "gen-in" >General Instructions</a></center>
                      <center><a href="./PQuiz.jsp"><button type = "submit" class="testBtn">Begin The Test</button></a></center>
                 </ol>
             </h3>

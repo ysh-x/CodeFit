@@ -221,7 +221,7 @@ tr:nth-child(even) {
 
 .contain .p {
     font-family: georgia;
-    font-size: 24pt;
+    font-size: 20pt;
     color: darkslategraygrey;
     margin: 30px;
     width: 40%;
@@ -235,10 +235,6 @@ tr:nth-child(even) {
      margin: 30px;
     width: 40%;
     transition: 1s;
-}
-.contain .p:hover {
-    font-size: 28pt;
-    color: white;
 }
 
 .contain .pa:hover {
